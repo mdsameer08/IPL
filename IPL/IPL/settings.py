@@ -44,8 +44,11 @@ INSTALLED_APPS = [
     'django_filters',
     
     # Local apps
-    'api',
-    'scraper',
+    'api.apps.ApiConfig',
+    'scraper.apps.ScraperConfig',
+    'dashboard.apps.DashboardConfig',
+    'dashboard',
+    'dashboard',
 ]
 
 # Django REST Framework settings
